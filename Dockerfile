@@ -3,7 +3,7 @@
 FROM debian:buster
 MAINTAINER Andrew Dukes <andymdukes@icloud.com>
 
-ARG NETXMS_VERSION_AGENT=3.8.267
+ARG NETXMS_VERSION_AGENT=3.8.262
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections && \
     apt-get update && \
